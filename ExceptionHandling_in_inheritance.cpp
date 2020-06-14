@@ -1,3 +1,4 @@
+//Reference geeksforgeeks.org   
 #include<iostream> 
 using namespace std;
 
@@ -29,7 +30,7 @@ public:
 //	Derived d;
 //	try {
 //	
-//		throw d;  // A new object will be created
+//		throw d;  // A new object will be created. Multiple constructor and destructor are getting called. Need to check reason behind this
 //	}
 //	catch (Base b) {
 //		cout << "Caught Base Exception\n";
